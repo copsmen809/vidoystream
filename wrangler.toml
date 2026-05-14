@@ -3,5 +3,5 @@ main = "index.js"
 compatibility_date = "2024-05-14"
 
 [[routes]]
-pattern = "cdn2.vid7me.id/*"
+pattern = "cdn2.vid7me.id/"
 custom_domain = true
