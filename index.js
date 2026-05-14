@@ -9,7 +9,7 @@ export default {
     if (match) {
       const videoId = match[1]; 
       // Link dasar dari Vidoy sesuai screenshot yang lu kasih
-      const targetUrl = `https://vidlc.com/e/${videoId}`;
+      const targetUrl = 'https://vidzp.com/e/${videoId}`;
 
       // Redirect ke link stream asli
       return Response.redirect(targetUrl, 301);
