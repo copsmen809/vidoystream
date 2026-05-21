@@ -1,12 +1,11 @@
-#:schema https://raw.githubusercontent.com/cloudflare/wrangler/master/config-schema.json
 name = "vidoystream"
 main = "index.js"
-compatibility_date = "2026-05-14"
+compatibility_date = "2026-05-21"
 
-# Menggunakan domain test cdn2.vid7me.id tanpa wildcard atau path
 [[routes]]
-pattern = "cdn2.vid7me.id"
+pattern = "cdn2.slirpdrive.com"
 custom_domain = true
 
-[observability]
-enabled = true
+[vars]
+# Tempat environment variabel jika nanti dibutuhkan
+
